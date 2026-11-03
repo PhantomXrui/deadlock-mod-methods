@@ -1,8 +1,10 @@
-# Text methods and reviewed original diagrams only.
+# Methods, diagrams, and reviewed process pictures in assets/images only.
 *
 !*/
 !*.md
 !*.svg
+!assets/images/**/*.png
+!assets/images/**/*.jpg
 !.gitignore
 !.gitattributes
 .git/
