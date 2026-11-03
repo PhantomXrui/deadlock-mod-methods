@@ -1,0 +1,17 @@
+# Text methods and reviewed original diagrams only.
+*
+!*/
+!*.md
+!*.svg
+!.gitignore
+!.gitattributes
+.git/
+.env*
+*.local.*
+local/
+private/
+node_modules/
+.venv/
+__pycache__/
+.codex/
+.agents/

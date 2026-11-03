@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="420" viewBox="0 0 1120 420" role="img" aria-labelledby="title desc">
+  <title id="title">两条独立的MOD实现路线</title>
+  <desc id="desc">外部人物移植需要外貌基线、骨骼适配、导出编译与动态验证；原皮改色沿用原模型，只修改颜色与图标并验证资源差异。两条路线共同记录问题、尝试、证据、修复和验证。</desc>
+  <rect width="1120" height="420" rx="18" fill="#f4f7fb"/>
+  <g font-family="sans-serif" fill="#23334b">
+    <text x="36" y="47" font-size="27" font-weight="700">同一份方法记录，两条制作路线</text>
+    <text x="36" y="83" font-size="16">记录代码怎样实现与问题怎样解决，不附角色素材或成品。</text>
+    <g stroke="#bccfe3" stroke-width="2">
+      <rect x="36" y="115" width="242" height="92" rx="10" fill="#e6efff"/><rect x="307" y="115" width="242" height="92" rx="10" fill="#fff"/><rect x="578" y="115" width="242" height="92" rx="10" fill="#fff"/><rect x="849" y="115" width="235" height="92" rx="10" fill="#fff"/>
+      <rect x="36" y="239" width="242" height="92" rx="10" fill="#f2eafa"/><rect x="307" y="239" width="242" height="92" rx="10" fill="#fff"/><rect x="578" y="239" width="242" height="92" rx="10" fill="#fff"/><rect x="849" y="239" width="235" height="92" rx="10" fill="#fff"/>
+    </g>
+    <g font-size="21" font-weight="700">
+      <text x="54" y="149">人物移植替换</text><text x="325" y="149">原外貌与骨骼适配</text><text x="596" y="149">导出与编译</text><text x="867" y="149">动态验证</text>
+      <text x="54" y="273">原皮改色</text><text x="325" y="273">定位颜色与图标</text><text x="596" y="273">编译最小补丁</text><text x="867" y="273">差异与效果验证</text>
+    </g>
+    <g font-size="15">
+      <text x="54" y="180">外部人物 → 游戏角色</text><text x="325" y="180">几何 / UV / 权重 / 材质</text><text x="596" y="180">骨架 / 动画 / 附件 / 物理</text><text x="867" y="180">外貌、换弹、冲刺大跳</text>
+      <text x="54" y="304">保留游戏原模型与动画</text><text x="325" y="304">彩图 / 粒子 / 材质字段</text><text x="596" y="304">按内部资源路径合并</text><text x="867" y="304">保留其他资源与状态</text>
+    </g>
+    <g stroke="#6482aa" stroke-width="2.5" fill="none">
+      <path d="M283 160H300m-6-6 6 6-6 6M554 160H571m-6-6 6 6-6 6M825 160H842m-6-6 6 6-6 6"/>
+      <path d="M283 284H300m-6-6 6 6-6 6M554 284H571m-6-6 6 6-6 6M825 284H842m-6-6 6 6-6 6"/>
+    </g>
+    <text x="36" y="382" font-size="18">共用记录：问题 → 实际尝试 → 证据 → 限定修复 → 验证结果与未验证项</text>
+  </g>
+</svg>
